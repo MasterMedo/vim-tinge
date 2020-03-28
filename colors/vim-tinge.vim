@@ -14,7 +14,7 @@ let g:colors_name = "vim-tinge"
 " highlight character
 highlight colorcolumn     guifg=#000000 guibg=#F3D409 gui=none
 highlight comment         guifg=#069E9C               gui=none
-highlight conceal         guifg=#A6D0CA guibg=#10161C gui=none
+highlight conceal         guifg=#303030 guibg=#10161C gui=none
 " highlight conditional
 " highlight constant
 highlight cursor          guifg=#A6D0CA guibg=#10161C gui=none
