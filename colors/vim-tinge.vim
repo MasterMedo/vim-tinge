@@ -13,11 +13,11 @@ let g:colors_name = "vim-tinge"
 " highlight boolean
 " highlight character
 highlight colorcolumn     guifg=#000000 guibg=#F3D409 gui=none
-highlight comment         guifg=#069E9C               gui=none
-highlight conceal         guifg=#303030 guibg=#10161C gui=none
+highlight comment         guifg=#069E9C guibg=none    gui=none
+highlight conceal         guifg=#303030 guibg=none    gui=none
 " highlight conditional
 " highlight constant
-highlight cursor          guifg=#A6D0CA guibg=#10161C gui=none
+highlight cursor          guifg=#A6D0CA guibg=none    gui=none
 highlight cursorcolumn    guifg=none    guibg=#1C1C1C gui=none
 highlight cursorline      guifg=none    guibg=#1C1C1C gui=none
 highlight cursorlinenr    guifg=#FFFFFF guibg=#1C1C1C gui=bold
@@ -36,14 +36,14 @@ highlight difftext        guifg=#000000 guibg=#F3D409 gui=none
 highlight foldcolumn      guifg=#585858 guibg=#10161c gui=none
 highlight folded          guifg=#A8A8A8 guibg=#303030 gui=italic
 " highlight function
-highlight identifier      guifg=#069E9C               gui=bold
+highlight identifier      guifg=#069E9C guibg=none    gui=bold
 " highlight ignore
 " highlight include
 highlight incsearch       guifg=#000000 guibg=#FF03DE gui=none
 " highlight keyword
 " highlight lCursor
 " highlight label
-highlight linenr          guifg=#585858 guibg=#10161c gui=none
+highlight linenr          guifg=#585858 guibg=none    gui=none
 " highlight macro
 " highlight matchparen
 " highlight modemsg
@@ -57,25 +57,25 @@ highlight pmenu           guifg=#FFFFFF guibg=#069E9C gui=none
 highlight pmenusel        guifg=#FFFFFF guibg=#B89F49 gui=none
 " highlight pmenuthumb
 " highlight precondit
-highlight preproc         guifg=#5FD6FE               gui=none
+highlight preproc         guifg=#5FD6FE guibg=none    gui=none
 " highlight question
 " highlight repeat
 highlight search          guifg=#000000 guibg=#F3D409 gui=none
 " highlight signcolumn
-highlight special         guifg=#DBB9B9               gui=none
+highlight special         guifg=#DBB9B9 guibg=none    gui=none
 " highlight specialchar
 " highlight specialcomment
 " highlight specialkey
-highlight statement       guifg=#B89F49               gui=none
+highlight statement       guifg=#B89F49 guibg=none    gui=none
 " highlight statusline
 " highlight statuslinenc
 " highlight storageclass
-highlight string          guifg=#E07C87               gui=none
+highlight string          guifg=#E07C87 guibg=none    gui=none
 " highlight structure
 " highlight tag
 " highlight title
 highlight todo            guifg=#000000 guibg=#F3D409 gui=none
-highlight type            guifg=#87FFAF               gui=none
+highlight type            guifg=#87FFAF guibg=none    gui=none
 " highlight typedef
 " highlight vertsplit
 highlight visual          guifg=none    guibg=#606060 gui=none
