@@ -1,23 +1,24 @@
-if version > 580
-  hi clear
-  if exists("syntax_on")
-    syntax reset
-  endif
+set background=dark
+
+highlight clear
+if exists("syntax_on")
+  syntax reset
 endif
 
 set background=dark
 set t_Co=256
 let g:colors_name = "vim-tinge"
 
+
 " highlight boolean
 " highlight character
 highlight colorcolumn     guifg=#000000 guibg=#F3D409 gui=none
 highlight comment         guifg=#069E9C               gui=none
-" highlight conceal
+highlight conceal         guifg=#A6D0CA guibg=#10161C gui=none
 " highlight conditional
 " highlight constant
-" highlight cursor
-" highlight cursorcolumn
+highlight cursor          guifg=#A6D0CA guibg=#10161C gui=none
+highlight cursorcolumn    guifg=none    guibg=#1C1C1C gui=none
 highlight cursorline      guifg=none    guibg=#1C1C1C gui=none
 highlight cursorlinenr    guifg=#FFFFFF guibg=#1C1C1C gui=bold
 " highlight debug
@@ -82,3 +83,5 @@ highlight visualnos       guifg=none    guibg=#808080 gui=none
 " highlight warningmsg
 highlight whitespace      guifg=#303030 guibg=none    gui=none
 " highlight wildmenu
+
+set background=dark
