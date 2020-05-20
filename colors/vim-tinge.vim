@@ -9,14 +9,8 @@ set background=dark
 set t_Co=256
 let g:colors_name = "vim-tinge"
 
-highlight aleerror        guifg=#F30000 guibg=#10161c gui=none
-highlight alewarning      guifg=#F3D409 guibg=#10161c gui=none
-highlight aleinfo         guifg=#A6D0CA guibg=#10161c gui=none
-highlight alestyleerror   guifg=#F3D409 guibg=#10161c gui=none
-highlight alestylewarning guifg=#F3D409 guibg=#10161c gui=none
-highlight aleerrorline    guifg=#A6D0CA guibg=#F30000 gui=none
-highlight alewarningline  guifg=#A6D0CA guibg=#A6D0CA gui=none
-highlight aleinfoline     guifg=#A6D0CA guibg=#10161c gui=none
+highlight link alewarningsign       spellcap
+highlight link alestylewarning      spellcap
 " highlight boolean
 " highlight character
 highlight colorcolumn     guifg=#000000 guibg=#F3D409 gui=none
@@ -36,7 +30,7 @@ highlight diffchange      guifg=none    guibg=none    gui=none
 highlight diffdelete      guifg=#FF0000 guibg=none    gui=none
 highlight difftext        guifg=#000000 guibg=#F3D409 gui=none
 " highlight directory
-" highlight error
+highlight error           guifg=#F30000 guibg=none    gui=none
 " highlight errormsg
 " highlight exception
 " highlight float
@@ -68,11 +62,13 @@ highlight preproc         guifg=#5FD6FE guibg=none    gui=none
 " highlight question
 " highlight repeat
 highlight search          guifg=#000000 guibg=#F3D409 gui=none
-" highlight signcolumn
+highlight signcolumn      guifg=none    guibg=none    gui=none
 highlight special         guifg=#DBB9B9 guibg=none    gui=none
 " highlight specialchar
 " highlight specialcomment
 " highlight specialkey
+highlight spellbad        guifg=#F30000 guibg=none    gui=none
+highlight spellcap        guifg=#F3D409 guibg=none    gui=none
 highlight statement       guifg=#B89F49 guibg=none    gui=none
 " highlight statusline
 " highlight statuslinenc
