@@ -9,7 +9,14 @@ set background=dark
 set t_Co=256
 let g:colors_name = "vim-tinge"
 
-
+highlight aleerror        guifg=#F30000 guibg=#10161c gui=none
+highlight alewarning      guifg=#F3D409 guibg=#10161c gui=none
+highlight aleinfo         guifg=#A6D0CA guibg=#10161c gui=none
+highlight alestyleerror   guifg=#F3D409 guibg=#10161c gui=none
+highlight alestylewarning guifg=#F3D409 guibg=#10161c gui=none
+highlight aleerrorline    guifg=#A6D0CA guibg=#F30000 gui=none
+highlight alewarningline  guifg=#A6D0CA guibg=#A6D0CA gui=none
+highlight aleinfoline     guifg=#A6D0CA guibg=#10161c gui=none
 " highlight boolean
 " highlight character
 highlight colorcolumn     guifg=#000000 guibg=#F3D409 gui=none
@@ -33,7 +40,7 @@ highlight difftext        guifg=#000000 guibg=#F3D409 gui=none
 " highlight errormsg
 " highlight exception
 " highlight float
-highlight foldcolumn      guifg=#585858 guibg=#10161c gui=none
+highlight foldcolumn      guifg=#585858 guibg=none    gui=none
 highlight folded          guifg=#A8A8A8 guibg=#303030 gui=italic
 " highlight function
 highlight identifier      guifg=#069E9C guibg=none    gui=bold
