@@ -9,8 +9,8 @@ set background=dark
 set t_Co=256
 let g:colors_name = "vim-tinge"
 
-highlight link alewarningsign       spellcap
-highlight link alestylewarning      spellcap
+highlight link alewarningsign   spellcap
+highlight link alestylewarning  spellcap
 " highlight boolean
 " highlight character
 highlight colorcolumn     guifg=#000000 guibg=#F3D409 gui=none
@@ -46,16 +46,16 @@ highlight incsearch       guifg=#000000 guibg=#FF03DE gui=none
 " highlight label
 highlight linenr          guifg=#585858 guibg=none    gui=none
 " highlight macro
-" highlight matchparen
+highlight matchparen      guifg=#A6D0CA guibg=#069E9C gui=none
 " highlight modemsg
 " highlight moremsg
 highlight nontext         guifg=#303030 guibg=none    gui=none
 highlight normal          guifg=#A6D0CA guibg=#10161c gui=none
 " highlight number
 " highlight operator
-highlight pmenu           guifg=#FFFFFF guibg=#069E9C gui=none
+highlight pmenu           guifg=#FFFFFF guibg=#303030 gui=none
 " highlight pmenusbar
-highlight pmenusel        guifg=#FFFFFF guibg=#B89F49 gui=none
+highlight pmenusel        guifg=#000000 guibg=#F3D409 gui=none
 " highlight pmenuthumb
 " highlight precondit
 highlight preproc         guifg=#5FD6FE guibg=none    gui=none
@@ -63,7 +63,7 @@ highlight preproc         guifg=#5FD6FE guibg=none    gui=none
 " highlight repeat
 highlight search          guifg=#000000 guibg=#F3D409 gui=none
 highlight signcolumn      guifg=none    guibg=none    gui=none
-highlight special         guifg=#DBB9B9 guibg=none    gui=none
+highlight special         guifg=#FFFFFF guibg=none    gui=bold
 " highlight specialchar
 " highlight specialcomment
 " highlight specialkey
@@ -76,7 +76,7 @@ highlight statement       guifg=#B89F49 guibg=none    gui=none
 highlight string          guifg=#E07C87 guibg=none    gui=none
 " highlight structure
 " highlight tag
-" highlight title
+highlight title           guifg=#FFFFFF guibg=none    gui=bold
 highlight todo            guifg=#000000 guibg=#F3D409 gui=none
 highlight type            guifg=#87FFAF guibg=none    gui=none
 " highlight typedef
