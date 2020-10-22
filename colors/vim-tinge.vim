@@ -19,9 +19,9 @@ highlight conceal         guifg=#303030 guibg=none    gui=none
 " highlight conditional
 " highlight constant
 highlight cursor          guifg=#A6D0CA guibg=none    gui=none
-highlight cursorcolumn    guifg=none    guibg=#1C1C1C gui=none
-highlight cursorline      guifg=none    guibg=#1C1C1C gui=none
-highlight cursorlinenr    guifg=#FFFFFF guibg=#1C1C1C gui=bold
+highlight cursorcolumn    guifg=none    guibg=#262626 gui=none
+highlight cursorline      guifg=none    guibg=#262626 gui=none
+highlight cursorlinenr    guifg=#FFFFFF guibg=#262626 gui=bold
 " highlight debug
 " highlight define
 " highlight delimiter
