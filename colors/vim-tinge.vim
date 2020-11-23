@@ -24,9 +24,9 @@ highlight cursorlinenr    guifg=#FFFFFF guibg=#262626 gui=bold
 " highlight define
 " highlight delimiter
 highlight diffadd         guifg=#00AA00 guibg=none    gui=none
-highlight diffchange      guifg=none    guibg=none    gui=none
-highlight diffdelete      guifg=#FF0000 guibg=none    gui=none
-highlight difftext        guifg=#000000 guibg=#F3D409 gui=none
+highlight diffchange      guifg=none    guibg=none    gui=underline
+highlight diffdelete      guifg=#FF0000 guibg=none    gui=strikethrough
+highlight difftext        guifg=#FFAA00 guibg=none    gui=none
 " highlight directory
 highlight error           guifg=#F30000 guibg=none    gui=none
 " highlight errormsg
@@ -67,7 +67,7 @@ highlight special         guifg=#FFFFFF guibg=none    gui=bold
 " highlight specialkey
 highlight spellbad        guifg=#000000 guibg=#FF0000 gui=none
 highlight spellcap        guifg=#000000 guibg=#F3D409 gui=none
-highlight spelllocal      guifg=#000000 guibg=#FF9900 gui=none
+highlight spelllocal      guifg=#000000 guibg=#FFAA00 gui=none
 highlight spellrare       guifg=#000000 guibg=#00FF00 gui=none
 highlight statement       guifg=#B89F49 guibg=none    gui=none
 " highlight statusline
