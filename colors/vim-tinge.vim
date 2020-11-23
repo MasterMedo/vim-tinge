@@ -9,8 +9,6 @@ set background=dark
 set t_Co=256
 let g:colors_name = "vim-tinge"
 
-highlight link alewarningsign   spellcap
-highlight link alestylewarning  spellcap
 " highlight boolean
 " highlight character
 highlight colorcolumn     guifg=#000000 guibg=#F3D409 gui=none
@@ -67,8 +65,10 @@ highlight special         guifg=#FFFFFF guibg=none    gui=bold
 " highlight specialchar
 " highlight specialcomment
 " highlight specialkey
-highlight spellbad        guifg=#F30000 guibg=none    gui=none
-highlight spellcap        guifg=#F3D409 guibg=none    gui=none
+highlight spellbad        guifg=#000000 guibg=#FF0000 gui=none
+highlight spellcap        guifg=#000000 guibg=#F3D409 gui=none
+highlight spelllocal      guifg=#000000 guibg=#FF9900 gui=none
+highlight spellrare       guifg=#000000 guibg=#00FF00 gui=none
 highlight statement       guifg=#B89F49 guibg=none    gui=none
 " highlight statusline
 " highlight statuslinenc
@@ -83,7 +83,7 @@ highlight type            guifg=#87FFAF guibg=none    gui=none
 " highlight vertsplit
 highlight visual          guifg=none    guibg=#606060 gui=none
 highlight visualnos       guifg=none    guibg=#808080 gui=none
-" highlight warningmsg
+highlight warningmsg      guifg=#F3D409 guibg=none    gui=none
 highlight whitespace      guifg=#303030 guibg=none    gui=none
 " highlight wildmenu
 
